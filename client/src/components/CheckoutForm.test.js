@@ -31,5 +31,4 @@ test("form shows success message on submit with form details", () => {
     fireEvent.click(button);
     //Assert
     const newForm = screen.findByText(/You have ordered some plants! Woo-hoo! 🎉 Your new green friends will be shipped to: Sam Lalli 123 4th street Townville, UT 84010/i)
-
 });
