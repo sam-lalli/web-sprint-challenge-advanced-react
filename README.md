@@ -31,6 +31,9 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Explain how to build stateful class components.
 
 2. Describe the different phases of the component lifecycle.
+  -mounting
+  -updating
+  -unmounting
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
