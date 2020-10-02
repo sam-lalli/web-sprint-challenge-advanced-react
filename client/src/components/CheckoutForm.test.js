@@ -1,11 +1,14 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import CheckoutForm from "./CheckoutForm";
+import App from '../App';
 
 // Write up the two tests here and make sure they are testing what the title shows
 
 test("form header renders", () => {
-    render(<CheckoutForm/>)
+    render(<App/>)
+    const header = screen.getByText(/React Plants/i)
+    expect(header).toBeTruthy();
 });
 
 test("form shows success message on submit with form details", () => {
